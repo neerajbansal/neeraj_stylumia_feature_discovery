@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylumia.css">
+    <script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/common.js"></script>
+    <script type="text/javascript" src="assets/admin.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 border-bottom">
+                <p>
+                    <h3 class="text-center">
+                        Neeraj Stylumia
+                    </h3>
+                </p>
+            </div>
+        </div>
+        <div class="row" id="loginForm">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="user_id">User ID</label>
+                        <input type="Number" class="form-control" id="user_id" aria-describedby="emailHelp" placeholder="Enter User ID">
+                    </div>
+                    <div class="form-group">
+                        <label for="user_id">type ID</label>
+                        <input type="Number" class="form-control" id="type_id" aria-describedby="emailHelp" placeholder="1" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="msg">Message</label>
+                        <input type="text" class="form-control" id="msg" aria-describedby="emailHelp" placeholder="Enter Message">
+                    </div>
+                    <div class="form-group">
+                        <label for="see_more">See More Handler</label>
+                        <input type="text" class="form-control" id="see_more" aria-describedby="emailHelp" placeholder="version.html" disabled>
+                    </div>
+                    <button id="loginFormSubmit" onclick="submitNotification(event)" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</body>
+
+</html>
